@@ -1,5 +1,3 @@
-import * as os from 'os'
-import express from 'express'
 import {square, cube} from '../logic/calculator.js'
 
 export const squareController = (req, res) => {

@@ -1,7 +1,9 @@
-export function square(number) {
+function square(number) {
     return number * number;
 }
 
-export function cube(number) {
+function cube(number) {
     return number * number * number;
 }
+
+module.exports = {square, cube}
