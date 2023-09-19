@@ -1,0 +1,24 @@
+# Directorios generados por Node.js
+node_modules/
+
+# Archivos de registro
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Archivos locales de configuración
+.env
+
+# Archivos generados por editores de código
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de respaldo
+*.bak
+*.swp
+
+# Archivos de configuración específicos del sistema operativo
+.DS_Store
+Thumbs.db
