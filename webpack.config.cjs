@@ -1,4 +1,4 @@
-import path from'path';
+const path = require('path');
 
 module.exports = {
   mode: 'production',
@@ -6,7 +6,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'dist'),
     publicPath: '/',
-    filename: 'final.js',
+    filename: 'app.js',
   },
   target: 'node',
 };
